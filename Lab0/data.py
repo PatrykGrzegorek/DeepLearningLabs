@@ -178,11 +178,11 @@ def myDummyDecision(X):
 
 
 if __name__ == "__main__":
-#     np.random.seed(100)
-#     G = Random2DGaussian()
-#     X = G.get_sample(100)
-#     plt.scatter(X[:, 0], X[:, 1])
-#     plt.show()
+    np.random.seed(100)
+    G = Random2DGaussian()
+    X = G.get_sample(100)
+    plt.scatter(X[:, 0], X[:, 1])
+    plt.show()
     # get the training dataset
     np.random.seed(100)
     X, Y_ = sample_gauss_2d(2, 100)
